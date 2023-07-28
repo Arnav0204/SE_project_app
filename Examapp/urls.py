@@ -24,4 +24,4 @@ urlpatterns = [
     path('account/',include('user_app.api.urls')),
 ]
 
-urlpatterns+= staticfiles_urlpatterns()
+urlpatterns += staticfiles_urlpatterns()
