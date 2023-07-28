@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'Examapp.wsgi.application'
  #       'NAME': BASE_DIR / 'db.sqlite3',
   #  }
 #}
-
+DATABASE_URL = "postgres://examappdb_user:FsYGFXhx3ZsxxLb40j56jFt12ejm7GVt@dpg-cim10e5gkuvinfkkjmpg-a.oregon-postgres.render.com/examappdb"
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
